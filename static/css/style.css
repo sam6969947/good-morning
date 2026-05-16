@@ -1,0 +1,10 @@
+/* Additional premium styles */
+/* Most styles are in index.html for self-containment */
+/* This file can hold overrides or additions */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
